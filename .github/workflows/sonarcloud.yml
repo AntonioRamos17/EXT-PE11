@@ -27,7 +27,7 @@ jobs:
         uses: sonarsource/sonarqube-scan-action@v4.1.0
         env:
           sonar-project-key: AntonioRamos17_EXT-PE11
-          sonar-organization: AntonioRamos17
+          sonar-organization: antonioramos17
           sonar-sources: ./backend
           sonar-javascript-lcov-reportpaths: ./backend/coverage/lcov.info
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
