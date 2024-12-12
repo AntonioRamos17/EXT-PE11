@@ -29,5 +29,3 @@ jobs:
           sonar-project-key: EXT-PE11
           sonar-organization: AntonioRamos17
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-          
