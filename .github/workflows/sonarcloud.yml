@@ -24,7 +24,8 @@ jobs:
         run: npm run coverage
         working-directory: ./backend
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: sonarsource/sonarqube-scan-action@v4.1.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+          sonar-project-key: EXT-PE11
+          sonar-organization: AntonioRamos17
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
